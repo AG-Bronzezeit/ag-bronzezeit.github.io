@@ -1,0 +1,24 @@
+---
+title: "Tradition vs. Innovation – Voraussetzungen, soziale Mechanismen und Folgen"
+subtitle: |
+  | 83. Tagung des Nordwestdeutschen Verbands für Altertumsforschung e.V.
+  | **Datum:** 13.–14.09.2018
+  | **Ort:** Heide/Holstein
+---
+
+## Programm
+
+```{r}
+#| label: Sitzungsprogramm
+#| renderings: [light, dark]
+
+source("../Sitzungen/tbl_Programm.R")
+
+Programm <- Liste_Sitzungen |>
+  filter(lubridate::year(Datum) == 2018)
+
+ft_Sitzungsprogramm(Programm, mode = "light")
+ft_Sitzungsprogramm(Programm, mode = "dark")
+```
+
+# [Abstracts](Abstracts/2018_Abstracts.pdf){target="_blank"}

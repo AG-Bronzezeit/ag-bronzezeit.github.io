@@ -1,0 +1,22 @@
+---
+title: "Die wirtschaftlichen Grundlagen der Bronzezeit Europas"
+subtitle: |
+  | Tagung des Nordwestdeutschen Verbandes für Altertumswissenschaften
+  | **Datum:** 20.–21.10.2004
+  | **Ort:** Hannover
+---
+
+## Programm
+
+```{r}
+#| label: Sitzungsprogramm
+#| renderings: [light, dark]
+
+source("../Sitzungen/tbl_Programm.R")
+
+Programm <- Liste_Sitzungen |>
+  filter(lubridate::year(Datum) == 2004)
+
+ft_Sitzungsprogramm(Programm, mode = "light")
+ft_Sitzungsprogramm(Programm, mode = "dark")
+```

@@ -1,0 +1,24 @@
+---
+title: "Das 3. und 2. Jahrtausend v. Chr.: Kontinuitäten und Veränderungen"
+subtitle: |
+  | Tagung der Arbeitsgemeinschaft Bronzezeit
+  | **Datum:** 24.–25.03.2003
+  | **Ort:** Bamberg
+---
+
+## Programm
+
+```{r}
+#| label: Sitzungsprogramm
+#| renderings: [light, dark]
+
+source("../Sitzungen/tbl_Programm.R")
+
+Programm <- Liste_Sitzungen |>
+  filter(lubridate::year(Datum) == 2003)
+
+ft_Sitzungsprogramm(Programm, mode = "light")
+ft_Sitzungsprogramm(Programm, mode = "dark")
+```
+
+# [Abstracts](Abstracts/2003_Abstracts.pdf){target="_blank"}

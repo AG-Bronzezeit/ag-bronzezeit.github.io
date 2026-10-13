@@ -1,0 +1,22 @@
+---
+title: "Identitätsmuster in der Bronzezeit – Vom Fundmaterial zur Konstruktion"
+subtitle: |
+  | 80. Tagung des Süd- und Westdeutschen Verbandes für Altertumsforschung
+  | **Datum:** 25.–26.05.2010
+  | **Ort:** Nürnberg
+---
+
+## Programm
+
+```{r}
+#| label: Sitzungsprogramm
+#| renderings: [light, dark]
+
+source("../Sitzungen/tbl_Programm.R")
+
+Programm <- Liste_Sitzungen |>
+  filter(lubridate::year(Datum) == 2010)
+
+ft_Sitzungsprogramm(Programm, mode = "light")
+ft_Sitzungsprogramm(Programm, mode = "dark")
+```

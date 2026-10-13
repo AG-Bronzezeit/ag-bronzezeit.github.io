@@ -1,0 +1,49 @@
+---
+title: "Bronzezeitliche 'Naturheiligtümer': Erkenntnisansätze – Orte – Material – Praktiken"
+subtitle: |
+  | Tagung des Nordwestdeutschen Verbandes für Altertumsforschung e.V. (NWVA), des West- und Süddeutschen Verbandes für Altertumsforschung e.V. (WSVA) und des Mittel- und Ostdeutschen Verbandes für Altertumsforschung e.V. (MOVA)
+  | **Datum:** 08.–09.10.2024
+  | **Ort:** Bochum
+---
+
+::: {.callout-tip collapse=true}
+
+## Call for Papers
+
+Die Untersuchung von Ritualorten hat eine lange Tradition in der Bronzezeitforschung. Bereits im frühen 20. Jahrhundert wurde erkannt, dass Rituale nicht nur im Bereich von künstlich errichteten Strukturen stattfanden, sondern auch an natürlich belassenen Orten. In diesem Rahmen ist wiederholt auf die besondere Bedeutung von Quellen, Mooren, Höhlen und Felsformationen verwiesen worden. Inzwischen haben Fundplätze dieser Art unter der Sammelbezeichnung ‚Naturheiligtümer‘ weiträumige Bekanntheit erlangt.
+
+Aufgrund der Quellenlage und des Fehlens schriftlicher Zeugnisse stellen ‚Naturheiligtümer‘ die archäologische Forschung bis heute vor besondere Herausforderungen. Um rituelle Räume und Praktiken in naturräumlichen Kontexten als solche identifizieren und diskutieren zu können, sind methodisch-theoretische Ansätze notwendig. Ein Blick in die Forschungs-beiträge der letzten Jahrzehnte zeigt jedoch, dass eine theoretische Auseinandersetzung mit ‚Naturheiligtümern‘ bislang weitgehend ausgeblieben ist.
+
+Die kommende Sitzung unserer AG soll sich daher derartigen ‚naturnahen Ritualorten in nicht-profanen Räumen‘ während der Bronzezeit widmen, den gegenwärtigen Kenntnisstand zu den materiellen Aspekten als ‚Naturheiligtümer‘ angesprochene Stätten darstellen und deren religiös konnotierte Interpretation durch theoretische, methodische und empirische Ansätze reflektieren.
+
+Von zentraler Bedeutung hierfür sind zwei Themenkomplexe: Erstens, was unter dem Begriff ‚Naturheiligtum‘ verstanden werden kann, und zweitens, ob bzw. wie sich naturheilige Plätze von ‚profanen‘ Räumen unterscheiden lassen. Dies betrifft ganz entscheidend auch den Aspekt von Wahrnehmung und Differenzierung zwischen Natur(raum) und Kultur(raum) – einst ebenso wie heute. Neben Untersuchungen zur (rituellen) Aneignung von Naturorten können auch Fragen nach deren Institutionalisierung als Kultstätten und ihrer Transformation in ‚Heiligtümer‘ nachgegangen werden. Hieran knüpfen sich Überlegungen zur Nutzungsdauer und einer veränderten Nutzung in diachroner Perspektive an. Dies berührt auch Fragen nach der gesellschaftlichen Zusammensetzung und der Größe der Personengruppen, die an solchen Plätzen zusammenkamen, sowie den Funktionen von ‚Natur‘ im rituellen bzw. religiösen Kontext.
+
+Vor diesem Hintergrund bitten wir um Beiträge, die sich dem Thema aus epistemologischem und materiellem Blickwinkel nähern, bisherige Theorien und Modelle kritisch diskutieren sowie mit Fallbeispielen beleuchten. Diskussionsschwerpunkte sollten insbesondere sein:
+
+1)	Welche Begriffe eignen sich zur Beschreibung ‚naturheiliger Plätze‘?
+2)	Inwiefern bieten die Dichotomien Natur/Kultur und profan/heilig einen fruchtbaren analytischen Zugang zur Diskussion bronzezeitlicher Fundplätze?
+3)	Wie sind ‚naturheilige Plätze‘ in die Landschaft eingebettet und inwieweit sind Abgrenzungen und/oder Verflechtungen zu ‚profanen‘ Lebensbereichen (also zu Siedlungen und zur Kulturlandschaft) sowie zu Bestattungsarealen nachvollziehbar?
+4)	Welche (religiös motivierten) Praktiken lassen sich für spezifische Naturorte (wie Felstürmen, Höhlen/Abris oder Mooren) erkennen, wann fanden sie statt und wer waren die Akteur*innen?
+5)	Lassen sich an diesen Orten rituelle Institutionalisierungen und die Transformation in (artifiziell veränderte und gegebenenfalls gebaute) ‚Heiligtümer‘ mit zugehöriger Infrastruktur feststellen?
+
+Jan Miera, Universität Münster
+
+André Spatzier, Landesamt für Denkmalpflege Baden-Württemberg
+:::
+
+## Programm
+
+```{r}
+#| label: Sitzungsprogramm
+#| renderings: [light, dark]
+
+source("../Sitzungen/tbl_Programm.R")
+
+Programm <- Liste_Sitzungen |>
+  filter(lubridate::year(Datum) == 2024)
+
+ft_Sitzungsprogramm(Programm, mode = "light")
+ft_Sitzungsprogramm(Programm, mode = "dark")
+```
+
+# [Abstracts](Abstracts/2024_Abstracts.pdf){target="_blank"}

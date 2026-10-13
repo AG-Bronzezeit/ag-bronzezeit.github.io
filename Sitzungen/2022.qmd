@@ -1,0 +1,22 @@
+---
+title: "Wasser in der Bronzezeit: Management – Subsistenz – Transport – Ritual"
+subtitle: |
+  | Jahressitzung der Arbeitsgemeinschaft Bronzezeit
+  | **Datum:** 04.–05.04.2022
+  | **Ort:** Online
+---
+
+## Programm
+
+```{r}
+#| label: Sitzungsprogramm
+#| renderings: [light, dark]
+
+source("../Sitzungen/tbl_Programm.R")
+
+Programm <- Liste_Sitzungen |>
+  filter(lubridate::year(Datum) == 2022)
+
+ft_Sitzungsprogramm(Programm, mode = "light")
+ft_Sitzungsprogramm(Programm, mode = "dark")
+```

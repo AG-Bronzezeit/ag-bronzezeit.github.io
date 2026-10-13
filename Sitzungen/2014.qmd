@@ -1,0 +1,24 @@
+---
+title: "Bronzezeitliche Religion und Kult"
+subtitle: |
+  | 8. Deutscher Archäologiekongress
+  | **Datum:** 06.–08.10.2014
+  | **Ort:** Berlin
+---
+
+## Programm
+
+```{r}
+#| label: Sitzungsprogramm
+#| renderings: [light, dark]
+
+source("../Sitzungen/tbl_Programm.R")
+
+Programm <- Liste_Sitzungen |>
+  filter(lubridate::year(Datum) == 2014)
+
+ft_Sitzungsprogramm(Programm, mode = "light")
+ft_Sitzungsprogramm(Programm, mode = "dark")
+```
+
+# [Abstracts](Abstracts/2014_Abstracts.pdf){target="_blank"}

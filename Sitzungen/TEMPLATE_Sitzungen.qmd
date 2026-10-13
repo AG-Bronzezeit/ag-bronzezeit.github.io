@@ -1,0 +1,41 @@
+---
+title: THEMA_Sitzung
+subtitle: |
+  | RAHMENTAGUNG
+  | **Datum:** DATUM
+  | **Ort:** ORT
+---
+::: {.callout-tip collapse=true}
+
+## Call for Papers
+
+CfP_HIER_EINFÜGEN
+
+SPRECHER_INNEN_HIER_EINFÜGEN
+
+:::
+
+## Programm
+
+```{r}
+#| label: Sitzungsprogramm
+#| renderings: [light, dark]
+
+source("../Sitzungen/tbl_Programm.R")
+
+Programm <- Liste_Sitzungen |>
+  filter(lubridate::year(Datum) == ####) # hier Jahreszahl einfügen
+
+ft_Sitzungsprogramm(Programm, mode = "light")
+ft_Sitzungsprogramm(Programm, mode = "dark")
+```
+
+# [Abstracts](Abstracts/LINK_ABSTRACTS_PDF){target="_blank"}
+
+
+## Information zur Tagung
+
+Aktuelle Informationen finden zur Tagung Sie auf der Website der INSTITUTION_EINFÜGEN unter
+[LINK_ZUR_TAGUNGSHOMEPAGE](LINK_ZUR_TAGUNGSHOMEPAGE)
+
+## Publikation

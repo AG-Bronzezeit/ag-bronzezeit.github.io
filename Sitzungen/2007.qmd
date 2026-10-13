@@ -1,0 +1,22 @@
+---
+title: "Handwerk im sozialen Kontext"
+subtitle: |
+  | Jahrestagung des Nordwestdeutschen Verbandes für Altertumsforschung
+  | **Datum:** 08.–09.10.2007
+  | **Ort:** Schleswig
+---
+
+## Programm
+
+```{r}
+#| label: Sitzungsprogramm
+#| renderings: [light, dark]
+
+source("../Sitzungen/tbl_Programm.R")
+
+Programm <- Liste_Sitzungen |>
+  filter(lubridate::year(Datum) == 2007)
+
+ft_Sitzungsprogramm(Programm, mode = "light")
+ft_Sitzungsprogramm(Programm, mode = "dark")
+```

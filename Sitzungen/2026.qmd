@@ -1,0 +1,46 @@
+---
+title: "Mensch-Umwelt-Interaktionen in der Bronzezeit"
+subtitle: |
+  | Internationale Konferenz / Sitzung der AG Bronzezeit
+  | **Datum:** 24.–27. September 2026
+  | **Ort:** Institut für Archäologien der Universität Innsbruck, Ágnes-Heller-Haus, Innrain 52a
+---
+
+::: {.callout-tip collapse=true}
+
+## Call for Papers
+
+Menschliche Aktivitäten haben in allen Epochen Spuren in der Umwelt hinterlassen. Nach den umwälzenden Veränderungen infolge der Neolithischen Revolution und der Secondary Products Revolution brachte die Bronzezeit weitere Innovationen wie die extensive Nutzung von Metallen, die Gewinnung wichtiger Rohstoffe wie Salz und die Herstellung von Glas. Die Nutzung des Pferdes als Reit- und Zugtier erleichterte die Mobilität, eine Ausdehnung der Acker- und Weideareale sowie die Einführung der Hirse führten zu einer deutlichen Intensivierung der Agrarwirtschaft. Während einerseits ein steigender Ressourcenverbrauch etabliert wurde, entstanden andererseits semi-nachhaltige Landnutzungssysteme, etwa in Form der alpinen Almwirtschaft oder auf den nordeuropäischen Heidelandschaften.
+
+Gesellschaftliche, politische, ökonomische oder auch ideelle Erwägungen beeinflussen, in welcher Form das naturräumliche Potential einer Landschaft in Anspruch genommen wird. Sich ändernde Umweltbedingungen wie Bodenermüdungserscheinungen, Klimaschwankungen, Veränderungen der ökologischen Vielfalt oder Zerstörung von Lebensräumen können zudem zu Anpassungen von bisherigen Lebens- und Wirtschaftsweisen führen. Auch vor diesem Hintergrund stellt sich die Frage, wie Mensch und Umwelt einander während der Bronzezeit geprägt haben.
+
+Die kommende Sitzung der AG Bronzezeit strebt einen Überblick zum aktuellen Forschungsstand dieser komplexen Interaktionen zwischen den damaligen Menschen und ihrer Umwelt an. Dabei sollen sowohl die Vielfalt der praktischen und theoretischen Forschungsansätze illustriert als auch Desiderate offengelegt und damit Perspektiven für zukünftige Projekte aufgezeigt werden. Neben beispielsweise landschaftsarchäologischen oder paläoökologischen Betrachtungen sind Studien zur sozialen Organisation bronzezeitlicher Gesellschaften ebenso willkommen wie Untersuchungen zu Mensch-Tier-Beziehungen oder zu Ressourcennutzungen und deren Umweltauswirkungen. Ausdrücklich begrüßen wir neben dezidiert archäologischen Perspektiven auch Beiträge aus den naturwissenschaftlichen Disziplinen sowie interdisziplinäre Kollaborationen.
+
+Jessica Keil, Universität Innsbruck, Sprecherin der AG Bronzezeit
+
+Tobias Mörtz, Universität Hamburg, Sprecher der AG Bronzezeit
+
+Peter Trebsche, Universität Innsbruck
+:::
+
+## Programm
+
+```{r}
+#| label: Sitzungsprogramm
+#| renderings: [light, dark]
+
+source("../Sitzungen/tbl_Programm.R")
+
+Programm <- Liste_Sitzungen |>
+  filter(lubridate::year(Datum) == 2026)
+
+ft_Sitzungsprogramm(Programm, mode = "light")
+ft_Sitzungsprogramm(Programm, mode = "dark")
+```
+
+# [Abstracts](Abstracts/2026_Programm_Abstracts.pdf){target="_blank"}
+
+## Informationen zur Tagung
+
+Aktuelle Informationen finden Sie auf der Website der Universität Innsbruck unter 
+[https://www.uibk.ac.at/de/archaeologien/institut/team/keil-jessica/ag-bronzezeit/](https://www.uibk.ac.at/de/archaeologien/institut/team/keil-jessica/ag-bronzezeit/)

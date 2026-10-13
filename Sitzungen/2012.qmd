@@ -1,0 +1,22 @@
+---
+title: "Ressourcennutzung, Handel, Distribution – Zugang zu und Kontrolle von Rohstoffen"
+subtitle: |
+  | Jahrestagung des Mittel- und Ostdeutschen Verbandes für Altertumsforschung
+  | **Datum:** 16.–17.04.2012
+  | **Ort:** Brandenburg/Havel
+---
+
+## Programm
+
+```{r}
+#| label: Sitzungsprogramm
+#| renderings: [light, dark]
+
+source("../Sitzungen/tbl_Programm.R")
+
+Programm <- Liste_Sitzungen |>
+  filter(lubridate::year(Datum) == 2012)
+
+ft_Sitzungsprogramm(Programm, mode = "light")
+ft_Sitzungsprogramm(Programm, mode = "dark")
+```

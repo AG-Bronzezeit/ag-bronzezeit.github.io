@@ -1,0 +1,90 @@
+/* css styles */
+
+/* ==========================
+   Toggle-Schalter Light/Dark-Mode
+   ========================== */
+
+/* Umschalter als Schiebeschalter mit Sonne- und Mond-Symbol an beiden Enden
+   (Quartos Standard-Icon ist ein sehr kleiner, kontrastarmer Schalter) */
+.quarto-color-scheme-toggle {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  width: 2.5rem;
+  height: 1.15rem;
+  padding: 0 0.2rem;
+  border-radius: 999px;
+  background-color: rgba(0, 0, 0, 0.15);
+  vertical-align: middle;
+}
+
+/* Im Dark-Mode ist der Sidebar-Hintergrund selbst grau (theme "darkly"),
+   ein grauer Track darauf ist daher praktisch unsichtbar -> heller Ton */
+.quarto-color-scheme-toggle.alternate {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.quarto-color-scheme-toggle .bi::before,
+.quarto-color-scheme-toggle .bi::after {
+  font-family: "bootstrap-icons" !important;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  line-height: 1;
+  color: currentColor;
+  opacity: 0.75;
+}
+
+.quarto-color-scheme-toggle .bi::before {
+  content: "\f5a1";
+  /* bi-sun-fill, linkes Ende */
+  /* Das Sonnen-Glyph hat bei gleicher font-size deutlich weniger Füllfläche
+     (dünne Strahlen statt einer durchgehenden Fläche) als das Mond-Glyph
+     und wirkt dadurch kleiner -> etwas größer skalieren, um optisch
+     gleich schwer wie der Mond zu wirken */
+  font-size: 0.95rem;
+  left: 0.25rem;
+  background-image: none !important;
+}
+
+.quarto-color-scheme-toggle .bi::after {
+  content: "\f495";
+  /* bi-moon-stars-fill, rechtes Ende */
+  font-size: 0.7rem;
+  right: 0.3rem;
+}
+
+/* Schiebe-Knopf: als Ring statt als gefüllter Kreis, da ein gefüllter Kreis
+   in derselben Farbe wie das Icon (currentColor) das jeweils aktive Symbol
+   fast vollständig verdeckt hätte, statt es hervorzuheben */
+.quarto-color-scheme-toggle::after {
+  content: "";
+  position: absolute;
+  top: 0.05rem;
+  left: 0.2rem;
+  width: 1.05rem;
+  height: 1.05rem;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 2px solid currentColor;
+  transition: transform 0.2s ease;
+}
+
+.quarto-color-scheme-toggle.alternate::after {
+  transform: translateX(1.125rem);
+}
+
+/* ==========================
+   Callouts 
+   ========================== */
+
+/* Callout heading */
+.callout .callout-title-container {
+  font-size: 1rem;
+}
+
+/* Callout body text */
+.callout.callout-style-default .callout-body,
+.callout.callout-style-simple .callout-body {
+  font-size: 1rem;
+}

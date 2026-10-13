@@ -1,0 +1,35 @@
+---
+title: "Mikroregionale Studien zur Bronzezeit"
+subtitle: |
+  | Tagung des Nordwestdeutschen Verbandes für Altertumsforschung e. V. (NWVA), des West- und Süddeutschen Verbandes für Altertumsforschung e. V. (WSVA) und des Mittel- und Ostdeutschen Verbandes für Altertumsforschung e. V. (MOVA)
+  | **Datum:** 08.–10.09.2025
+  | **Ort:** Frankfurt/Oder
+---
+
+::: {.callout-tip collapse=true}
+
+## Call for Papers
+
+Trotz aller weiträumigen Vernetzungen und der mittlerweile gut nachgewiesenen Mobilität bronzezeitlicher Menschen blieb der alltägliche Interaktionsradius auf deren unmittelbares Wohnumfeld beschränkt. Diesbezüglich durchgeführte mikroregionale Forschungen können allgemein als Fallstudien jeglicher Art beschrieben werden, in deren Fokus kleinräumige Vernetzungen und Bezüge zwischen spezifischen Siedlungen und deren wirtschaftlicher, ritueller und kommunikativer Umgebung stehen. Je nach Forschungsfrage und angewandtem Methodenspektrum kann eine Mikroregion durch Flächenangaben definiert werden oder mit einem Verständnis von Raum einhergehen, in dem beispielsweise mit Netzwerkanalysen oder Sichtweitenrekonstruktionen eine Annäherung an die Blickweise(n) prähistorischer Gesellschaften angestrebt wird.
+
+Die kommende Sitzung der Arbeitsgemeinschaft Bronzezeit widmet sich dem vielseitigen Forschungspotenzial kleinräumiger Studien. Neben Beiträgen zur bronzezeitlichen Lebenswelt können auch methodische Reflektionen über Herausforderungen und Möglichkeiten der wissenschaftlichen Erschließung und Auswertung von Mikroregionen diskutiert werden. Eng verbunden mit dem Thema sind siedlungs- und landschaftsarchäologische Untersuchungen, die sich mit der Aneignung, Gestaltung und Wahrnehmung von Räumen durch bronzezeitliche Gemeinschaften befassen. Diese können sich auf ausgewählte Aspekte fokussieren wie etwa den Einfluss von wirtschaftlichen Strategien, sozialen Strukturen oder rituellen Praktiken auf die kleinräumige Gliederung von Landschaften und damit einhergehende (un)bewusste Umweltveränderungen. Komplementär begrüßen wir geoarchäologische und archäobotanische Forschungen sowie methodische Beiträge, die sich mit der Erfassung, dem Management, der Visualisierung und/oder der Verarbeitung mikroregionaler Forschungsdaten bis hin zu KI-gestützten Analysen befassen.
+
+Jan Miera, Universität Münster
+
+Tobias Mörtz, Universität Hamburg
+:::
+
+## Programm
+
+```{r}
+#| label: Sitzungsprogramm
+#| renderings: [light, dark]
+
+source("../Sitzungen/tbl_Programm.R")
+
+Programm <- Liste_Sitzungen |>
+  filter(lubridate::year(Datum) == 2025)
+
+ft_Sitzungsprogramm(Programm, mode = "light")
+ft_Sitzungsprogramm(Programm, mode = "dark")
+```

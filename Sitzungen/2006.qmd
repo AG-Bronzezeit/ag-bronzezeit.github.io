@@ -1,0 +1,22 @@
+---
+title: "Mobilität, Migration und Kommunikation in Europa während des Neolithikums und der Bronzezeit"
+subtitle: |
+  | Jahrestagung des West- und Süddeutschen Verbandes für Altertumsforschung e.V.
+  | **Datum:** 06.–07.06.2006
+  | **Ort:** Xanten
+---
+
+## Programm
+
+```{r}
+#| label: Sitzungsprogramm
+#| renderings: [light, dark]
+
+source("../Sitzungen/tbl_Programm.R")
+
+Programm <- Liste_Sitzungen |>
+  filter(lubridate::year(Datum) == 2006)
+
+ft_Sitzungsprogramm(Programm, mode = "light")
+ft_Sitzungsprogramm(Programm, mode = "dark")
+```

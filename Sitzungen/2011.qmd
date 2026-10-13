@@ -1,0 +1,22 @@
+---
+title: "Dinge und deren Nutzung im Alltag"
+subtitle: |
+  | 7. Deutscher Archäologiekongress
+  | **Datum:** 03.–05.10.2011
+  | **Ort:** Bremen
+---
+
+## Programm
+
+```{r}
+#| label: Sitzungsprogramm
+#| renderings: [light, dark]
+
+source("../Sitzungen/tbl_Programm.R")
+
+Programm <- Liste_Sitzungen |>
+  filter(lubridate::year(Datum) == 2011)
+
+ft_Sitzungsprogramm(Programm, mode = "light")
+ft_Sitzungsprogramm(Programm, mode = "dark")
+```

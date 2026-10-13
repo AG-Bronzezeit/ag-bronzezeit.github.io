@@ -1,0 +1,24 @@
+---
+title: "Transporte, Transportwege und Transportstrukturen"
+subtitle: |
+  | Jahressitzung der Arbeitsgemeinschaft Bronzezeit
+  | **Datum:** 30.–31.10.2015
+  | **Ort:** Tübingen
+---
+
+## Programm
+
+```{r}
+#| label: Sitzungsprogramm
+#| renderings: [light, dark]
+
+source("../Sitzungen/tbl_Programm.R")
+
+Programm <- Liste_Sitzungen |>
+  filter(lubridate::year(Datum) == 2015)
+
+ft_Sitzungsprogramm(Programm, mode = "light")
+ft_Sitzungsprogramm(Programm, mode = "dark")
+```
+
+# [Abstracts](Abstracts/2015_Programm_Abstracts.pdf){target="_blank"}

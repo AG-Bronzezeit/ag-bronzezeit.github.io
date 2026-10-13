@@ -1,0 +1,19 @@
+---
+title: "Anliegen und Geschichte der AG Bronzezeit"
+---
+
+Die Arbeitsgemeinschaft Bronzezeit (AG Bronzezeit) ist ein loser Zusammenschluss deutschsprachiger und internationaler WissenschaftlerInnen, die sich der Erforschung der Bronzezeit (ca. 2200–750 v. Chr.) widmen. Sie wurde 1973 – nach dem Vorbild der wenige Jahre zuvor gegründeten AG Neolithikum – als eine der ersten thematischen Arbeitsgemeinschaften der deutschen Ur- und Frühgeschichtsforschung ins Leben gerufen.
+
+Ziel der AG ist es, Forschende verschiedener Fachdisziplinen – Archäologie, Anthropologie, Zoologie, Geologie, Botanik, Genetik und weiterer naturwissenschaftlicher wie geisteswissenschaftlicher Fächer – zusammenzubringen und den interdisziplinären Austausch sowie die internationale Vernetzung zur bronzezeitlichen Kultur<!-- - und Sozial -->geschichte Europas zu fördern. Ebenso versteht sich die AG als Plattform für den wissenschaftlichen Nachwuchs und dessen Förderung sowie für alle an der Bronzezeitforschung Interessierten.
+
+Die AG Bronzezeit besitzt keine eigene Rechtspersönlichkeit, erhebt keine Mitgliedsbeiträge und wird von zwei gewählten SprecherInnen sowie einem wissenschaftlichen Beirat repräsentiert. Ihre zentrale Aufgaben sind die Ausrichtung einer jährlichen Sitzung (Tagung) zu einem wechselnden Schwerpunktthema sowie zu neuen Forschungen zur Bronzezeit, die in der Regel im Rahmen der Jahrestagungen der deutschen Altertumsverbände (WSVA, NWVA, MOVA) beziehungsweise der gemeinsamen Deutschen Archäologenkongresse stattfindet. Die Beiträge der Sitzungen werden regelmäßig in Sammelbänden veröffentlicht<!-- und dokumentieren so seit über 50 Jahren den Forschungsstand zur europäischen Bronzezeit -->.
+
+## Geschichte der AG
+
+::: callout
+
+## Hier kommt ein Text zu Entstehung, Hintergründen und den Zielen der AG Bronzezeit (Albrecht Jockenhövel)
+
+:::
+
+Eine Liste der aktuellen und bisherigen SprecherInnen und Beiräte der AG Bronzezeit finden sie [hier](Sprecher_Beirat/Sprecher_Beirat.qmd)

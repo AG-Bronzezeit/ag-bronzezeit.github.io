@@ -1,0 +1,103 @@
+project:
+  type: website
+  output-dir: docs
+  render: 
+    - "*.qmd"
+    - "!Sitzungen/TEMPLATE_Sitzungen.qmd"
+    - "!Links/Archaeologische_Verbände_und_Arbeitsgemeinschaften.md"
+    - "!Impressum_kurz.qmd"
+    - "!Programm_2023_final.qmd"
+    - "!Repo_description.md"
+
+date: today
+date-modified: last-modified
+
+lang: de-DE
+
+website:
+  title: Arbeitsgemeinschaft Bronzezeit
+  sidebar:
+    style: docked
+    search: true
+    collapse-level: 1
+    contents:
+      - text: "Home & Aktuelles"
+        href: index.qmd
+      - text: "Anliegen & Geschichte"
+        href: Anliegen_Geschichte.qmd
+      - text: "Sprecher & Beirat"
+        href: Sprecher_Beirat/Sprecher_Beirat.qmd
+      - section: Sitzungen
+        href: Sitzungen/Sitzungen.qmd
+        contents:
+        - text: "2026"
+          href: Sitzungen/2026.qmd
+        - text: "2025"
+          href: Sitzungen/2025.qmd
+        - text: "2024"
+          href: Sitzungen/2024.qmd
+        - text: "2023"
+          href: Sitzungen/2023.qmd
+        - text: "2022"
+          href: Sitzungen/2022.qmd
+        - text: "2019"
+          href: Sitzungen/2019.qmd
+        - text: "2018"
+          href: Sitzungen/2018.qmd
+        - text: "2017"
+          href: Sitzungen/2017.qmd
+        - text: "2016"
+          href: Sitzungen/2016.qmd
+        - text: "2015"
+          href: Sitzungen/2015.qmd
+        - text: "2014"
+          href: Sitzungen/2014.qmd
+        - text: "2013"
+          href: Sitzungen/2013.qmd
+        - text: "2012"
+          href: Sitzungen/2012.qmd
+        - text: "2011"
+          href: Sitzungen/2011.qmd
+        - text: "2010"
+          href: Sitzungen/2010.qmd
+        - text: "2009"
+          href: Sitzungen/2009.qmd
+        - text: "2008"
+          href: Sitzungen/2008.qmd
+        - text: "2007"
+          href: Sitzungen/2007.qmd
+        - text: "2006"
+          href: Sitzungen/2006.qmd
+        - text: "2005"
+          href: Sitzungen/2005.qmd
+        - text: "2004"
+          href: Sitzungen/2004.qmd
+        - text: "2003"
+          href: Sitzungen/2003.qmd
+      - text: Publikationen
+        href: Publikationen/Publikationen.qmd
+      - text: Links
+        href: Links/Links.qmd
+      - text: Impressum
+        href: Impressum.qmd
+  page-footer:
+    left: "© Arbeitsgemeinschaft Bronzezeit, André Spatzier"
+    right: "Erstellt mit [Quarto](https://quarto.org/) | Letzte Aktualisierung: {{< meta date-modified >}}"
+
+format:
+  html:
+    theme:
+      light: minty # minty OR flatly
+      dark: darkly
+    respect-user-color-scheme: true
+    callout-icon: false
+    css: 
+    - styles.css
+    toc: true
+    link-external-icon: true
+    link-external-newwindow: true
+
+execute: 
+  echo: false
+  warning: false
+

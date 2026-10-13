@@ -1,0 +1,24 @@
+---
+title: "Phasenübergänge und Umbrüche im bronzezeitlichen Europa"
+subtitle: |
+  | 80. Tagung des Nordwestdeutschen Verbandes für Altertumsforschung
+  | **Datum:** 02.–03.09.2013
+  | **Ort:** Lübeck
+---
+
+## Programm
+
+```{r}
+#| label: Sitzungsprogramm
+#| renderings: [light, dark]
+
+source("../Sitzungen/tbl_Programm.R")
+
+Programm <- Liste_Sitzungen |>
+  filter(lubridate::year(Datum) == 2013)
+
+ft_Sitzungsprogramm(Programm, mode = "light")
+ft_Sitzungsprogramm(Programm, mode = "dark")
+```
+
+# [Abstracts](Abstracts/2013_Abstracts.pdf){target="_blank"}

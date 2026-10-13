@@ -1,0 +1,22 @@
+---
+title: "Grenzen und Grenzräume"
+subtitle: |
+  | 18. Jahrestagung des Mittel- und Ostdeutschen Verbandes für Altertumsforschung e.V.
+  | **Datum:** 23.–25.03.2009
+  | **Ort:** Greifswald
+---
+
+## Programm
+
+```{r}
+#| label: Sitzungsprogramm
+#| renderings: [light, dark]
+
+source("../Sitzungen/tbl_Programm.R")
+
+Programm <- Liste_Sitzungen |>
+  filter(lubridate::year(Datum) == 2009)
+
+ft_Sitzungsprogramm(Programm, mode = "light")
+ft_Sitzungsprogramm(Programm, mode = "dark")
+```

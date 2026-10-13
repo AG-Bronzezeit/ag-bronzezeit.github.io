@@ -1,0 +1,22 @@
+---
+title: "Siedlung als sozialer Raum"
+subtitle: |
+  | Deutscher Archäologenkongress Mannheim
+  | **Datum:** 13.–14.05.2008
+  | **Ort:** Mannheim
+---
+
+## Programm
+
+```{r}
+#| label: Sitzungsprogramm
+#| renderings: [light, dark]
+
+source("../Sitzungen/tbl_Programm.R")
+
+Programm <- Liste_Sitzungen |>
+  filter(lubridate::year(Datum) == 2008)
+
+ft_Sitzungsprogramm(Programm, mode = "light")
+ft_Sitzungsprogramm(Programm, mode = "dark")
+```

@@ -1,0 +1,33 @@
+---
+title: Publikationen zu den Sitzungen der AG Bronzezeit
+
+lang: de-DE
+
+bibliography: AG_BZ_bibliography.bib
+csl: DAI-RGK-AGBZ.csl
+nocite: |
+  @MassyEtAl2023SozialeHierarchien
+  @BeckerEtAl2020GoWest
+  @NeumannEtAl2019SpezialisierungenBronzezeit
+  @NesselEtAl2018BronzezeitlicherTransport
+  @BrandhermNessel2017PhasenubergangeUnd
+  @NesselEtAl2014RessourcenUnd
+  @HeskeHorejs2012BronzezeitlicheIdentitaten
+  @DopplerEtAl2011GrenzenUnd
+  @HorejsKienlin2010SiedlungUnd
+  @Krenn-LeebEtAl2009MobilitatMigration
+  @BartelheimStauble2009WirtschaftlichenGrundlagen
+  @FalkensteinEtAl2005LangfristigeErscheinungen
+  @BeierEinicke2004VariaNeolithica
+  @Rittershofer1997SonderbestattungenBronzezeit
+  @Rittershofer1997DemographieBronzezeit
+---
+
+::: callout-tip
+## Hier finden sie eine Liste der bislang erschienenen Publikationen aus den Sitzungen der AG Bronzezeit. Es wird kein Anspruch auf Vollständigkeit erhoben.
+:::
+
+<!-- Literatur wird absteigend nach Erscheinungsjahr sortiert, nicht nach Autor -->
+
+::: {#refs}
+:::

@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Quarto (Cache, nicht die gerenderte Website!)
+/.quarto/
+
+# R / Positron
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.Renviron
+.positron/
+
+# Claude Code (lokale Einstellungen)
+.claude/
+
+# Hinweis: docs/ wird bewusst NICHT ignoriert - GitHub Pages liefert diesen Ordner aus.
+
+**/*.quarto_ipynb

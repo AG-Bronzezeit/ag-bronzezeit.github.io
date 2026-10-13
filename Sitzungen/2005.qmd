@@ -1,0 +1,22 @@
+---
+title: "Langfristige Erscheinungen und Brüche von der Bronze- zur Eisenzeit"
+subtitle: |
+  | Deutscher Archäologen-Kongress Frankfurt/Oder
+  | **Datum:** 04.–06.04.2005
+  | **Ort:** Frankfurt/Oder
+---
+
+## Programm
+
+```{r}
+#| label: Sitzungsprogramm
+#| renderings: [light, dark]
+
+source("../Sitzungen/tbl_Programm.R")
+
+Programm <- Liste_Sitzungen |>
+  filter(lubridate::year(Datum) == 2005)
+
+ft_Sitzungsprogramm(Programm, mode = "light")
+ft_Sitzungsprogramm(Programm, mode = "dark")
+```

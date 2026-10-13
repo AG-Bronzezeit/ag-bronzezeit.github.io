@@ -1,0 +1,24 @@
+---
+title: "Spezialisierungen in der Bronzezeit. Archäologische Quellen und Modelle"
+subtitle: |
+  | Jahrestagung des Nordwestdeutschen Verbands für Altertumsforschung
+  | **Datum:** 19.–20.09.2016
+  | **Ort:** Münster
+---
+
+## Programm
+
+```{r}
+#| label: Sitzungsprogramm
+#| renderings: [light, dark]
+
+source("../Sitzungen/tbl_Programm.R")
+
+Programm <- Liste_Sitzungen |>
+  filter(lubridate::year(Datum) == 2016)
+
+ft_Sitzungsprogramm(Programm, mode = "light")
+ft_Sitzungsprogramm(Programm, mode = "dark")
+```
+
+# [Abstracts](Abstracts/2016_Abstracts.pdf){target="_blank"}

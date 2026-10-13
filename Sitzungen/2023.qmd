@@ -1,0 +1,46 @@
+---
+title: "Periphere Räume in der Bronzezeit"
+subtitle: |
+  | Jahrestagung des West- und Süddeutschen Verbandes für Altertumsforschung e.V. (WSVA), des Mittel- und Ostdeutschen Verbandes für Altertumsforschung e.V. (MOVA) und des Nordwestdeutschen Verbandes für Altertumsforschung e.V. (NWVA)
+  | **Datum:** 25.-29. September 2023
+  | **Ort:** Eberhard Karls Universität Tübingen
+---
+
+::: {.callout-tip collapse=true}
+
+## Call for Papers
+
+In der Bronzezeit erreichten Abhängigkeiten sowie wechselseitiger Austausch und Beeinflussung auf technologischer, ökonomischer und sozialer Ebene ein bis dato nicht gegebenes Ausmaß. Es entstand eine neue Dimension von Konnektivität der Gesellschaften Eurasiens auf Basis von trans-regionalen Netzwerken zum Austausch von Gütern und Wissen - Vandkilde (2016) führte hierfür den Begriff bronzization ein, um eine Form vor-moderner Globalisierung während des zweiten Jahrtausends v. Chr. zu beschreiben.
+
+Vor diesem Hintergrund wurden seit der Einführung von Wallersteins Weltsystemtheorie – auch als Kern-Peripherie-Modelle bekannt – in die Archäologie vor etwa vier Jahrzehnten die Charakterisierung sowie Abhängigkeiten und damit verbundene wechselseitige Beeinflussungen von Regionen, zwischen denen ein Gefälle insbesondere aus ökonomischer Sicht bestand, diskutiert. Dabei lag der wissenschaftliche Fokus eher auf den Zentren als auf den Randzonen.
+
+Randzonen sind jedoch auch jenseits solcher weltsystemtheoretischer Ansätze mit eher globalem Blickwinkel allgegenwärtig, wie nur zwei Beispiele zu zeigen vermögen: Auf regionaler bis überregionaler Ebene können als periphere Regionen die mehr oder weniger fundleeren, oft ausgedehnten Gebiete abseits der Verdichtungszentren archäologischer Fundstellen angesehen werden. Im mikroregionalen Maßstab liegen die Peripherien außerhalb und abseits von Siedlungen oder Bestattungsplätzen. Eng damit verbunden sind Fragen nach den Subsistenzgrundlagen oder Art und Umfang möglicher Nutzflächen im erweiterten Sinn.
+
+Wir laden dazu ein, Beiträge einzureichen, die sich mit der sozialen, ökonomischen, kulturellen oder auch metaphorischen Bedeutung marginaler Räume während der Bronzezeit befassen und sich der Thematik im Rahmen der Archäologie, mit naturwissenschaftlichen Methoden oder auch dem Blickwinkel der Ethnografie oder der Kognitionsforschung widmen.
+
+<!-- Wir bitten ein Einreichung von Beiträgen bis zum **01.03.2022** inkl. aussagekräftigen Abstracts, die 300-500 Wörter lang sein sollten. -->
+
+André Spatzier, Landesamt für Denkmalpflege Baden-Württemberg
+
+Katharina Malek-Custodis, Niedersächsisches Landesamt für Denkmalpflege
+
+:::
+
+## Programm
+
+```{r}
+#| label: Sitzungsprogramm
+#| renderings: [light, dark]
+
+source("../Sitzungen/tbl_Programm.R")
+
+Programm <- Liste_Sitzungen |>
+  filter(lubridate::year(Datum) == 2023)
+
+ft_Sitzungsprogramm(Programm, mode = "light")
+ft_Sitzungsprogramm(Programm, mode = "dark")
+```
+
+# [Abstracts](Abstracts/2023_Abstracts.pdf){target="_blank"}
+
+<!-- # Publikation -->

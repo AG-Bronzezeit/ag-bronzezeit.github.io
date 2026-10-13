@@ -1,0 +1,51 @@
+---
+title: Impressum
+---
+
+## Angaben gemäß § 18 Abs. 1 MStV
+
+**Arbeitsgemeinschaft Bronzezeit**
+
+Die AG Bronzezeit ist ein informeller wissenschaftlicher Zusammenschluss ohne eigene Rechtspersönlichkeit. Sie wird vertreten durch ihre SprecherInnen.
+
+Verantwortlich im Sinne des § 18 Abs. 1 MStV sind die SprecherInnen und der Beirat der AG. Ihre Namen und ladungsfähigen Anschriften sind unter [Sprecher & Beirat](Sprecher_Beirat/Sprecher_Beirat.qmd) fortlaufend abrufbar.
+
+
+## Kontakt
+
+Über die SprecherInnen der AG: <!-- deren E-Mail-Adressen sind unter [Sprecher & Beirat](Sprecher_Beirat/Sprecher_Beirat.qmd) angegeben. -->
+
+::: {layout=[-20,60,-20]}
+
+|  |  |
+|---|---|
+| **Jessica Keil** | Universität Innsbruck<br>Institut für Archäologien<br>Innrain 52a (Ágnes-Heller-Haus)<br>A-6020 Innsbruck<br>[jessica.keil\@uibk.ac.at](mailto:jessica.keil@uibk.ac.at) |
+| **Stefanie Schaefer-di Maida** | Georg-August-Universität Göttingen<br>Seminar für Ur- und Frühgeschichte<br>Nikolausberger Weg 15<br>D-37073 Göttingen<br>[stefanie.schaefer-dimaida\@uni-goettingen.de](mailto:stefanie.schaefer-dimaida@uni-goettingen.de) |
+
+: {tbl-colwidths=\[20,20,60\]}
+
+:::
+
+## Inhaltlich verantwortlich gemäß § 18 Abs. 2 MStV
+
+Die SprecherInnen und der Beirat der AG Bronzezeit (Namen und Anschriften siehe [Sprecher & Beirat](Sprecher_Beirat/Sprecher_Beirat.qmd)).
+
+## Technische Betreuung
+
+André Spatzier – [andre.spatzier@rps.bwl.de](mailto:andre.spatzier@rps.bwl.de)
+
+## Haftung für Inhalte
+
+Die Inhalte dieser Seiten werden mit Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der bereitgestellten Inhalte kann jedoch keine Gewähr übernommen werden. Als Anbieter sind wir für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Eine Verpflichtung, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen, besteht nicht; Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden entsprechender Rechtsverletzungen werden die betreffenden Inhalte umgehend entfernt.
+
+## Haftung für Links
+
+Diese Website enthält Verweise auf externe Websites Dritter, auf deren Inhalte kein Einfluss besteht. Für diese fremden Inhalte kann keine Gewähr übernommen werden; verantwortlich ist stets der jeweilige Anbieter oder Betreiber der verlinkten Seiten. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft; rechtswidrige Inhalte waren zu diesem Zeitpunkt nicht erkennbar. Eine fortlaufende inhaltliche Kontrolle der verlinkten Seiten ist ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden solche Verweise umgehend entfernt.
+
+## Urheberrecht
+
+Die durch die Betreiber der Seiten erstellten Inhalte und Werke auf dieser Website unterliegen dem deutschen Urheberrecht. Beiträge Dritter sind als solche gekennzeichnet. Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung der jeweiligen Urheberin oder des jeweiligen Urhebers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.
+
+<!-- ## Datenschutz
+
+Informationen zur Verarbeitung personenbezogener Daten finden Sie in der [Datenschutzerklärung](./datenschutz.html). -->

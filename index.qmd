@@ -1,0 +1,46 @@
+---
+title: Willkommen bei der <br>[**Arbeitsgemeinschaft Bronzezeit**]{.underline}
+subtitle: der deutschen Archäologieverbände
+---
+
+Die AG Bronzezeit ist ein loser Zusammenschluss vornehmlich deutschsprachiger WissenschaftlerInnen zur Förderung der Erforschung der Bronzezeit (ca. 2200–750 v. Chr.). Ihr Anliegen ist es, Forschende unterschiedlichster Fachdisziplinen zusammenzubringen und zugleich als Plattform für den wissenschaftlichen Nachwuchs und alle an der Bronzezeitforschung Interessierten zu dienen. Zentrales Forum der AG sind die jährlich stattfindenden Sitzungen, die meist im Rahmen der Jahrestagungen der deutschen Altertumsverbände oder der Deutschen Archäologenkongresse abgehalten werden.
+
+Auf dieser Website finden Sie insbesondere Informationen zu vergangenen und kommenden Sitzungen, zu den daraus hervorgegangenen Publikationen sowie Kontaktmöglichkeiten zur AG.
+
+Wenn Sie in die Mailingliste der AG aufgenommen werden möchten, wenden Sie sich bitte formlos an die [AG-SprecherInnen](Sprecher_Beirat/Sprecher_Beirat.qmd).
+
+## Aktuelles
+
+:::: callout-important
+## Nächste Sitzung der AG Bronzezeit findet statt
+
+::: {style="text-align: center; font-size: 1.2em;"}
+
+im Rahmen der **Verbandstagung 2027** in **Göttingen**.
+
+Details folgen.
+
+<!--  am **Institut für Archäologien** der **Universität Innsbruck**
+
+vom **24.–27. September 2026**. -->
+:::
+
+<!-- Weitere Informationen finden sie [hier](Sitzungen/2026.qmd) -->
+::::
+
+::: callout-tip
+## Jüngste Publikation
+
+K. Massy / J. Bunnefeld / C. Horn (Hrsg.), Soziale Hierarchien zwischen Tradition und Innovation in der Bronzezeit Europas. Beiträge der Sitzungen der AG Bronzezeit im Rahmen der 83. Tagung des NWVA vom 12.-15. September 2018 in Heide (Holstein) und der 85. Jahrestagung des WSVA und des MOVA vom 1.-5. April 2019 in Würzburg. Beiträge zur Ur- und Frühgeschichte Mitteleuropas 106 (Langenweissbach 2023).
+:::
+
+------------------------------------------------------------------------
+
+
+::: callout
+## Die Website der AG Bronzezeit befindet sich derzeit im Aufbau.
+
+Die alte Website der AG Bronzezeit <!-- wurde von der Georg-August-Universität Göttingen gehostet und --> ist über diesen [Link](https://uni-goettingen.de/de/535354.html){.external target="blank"} zugänglich.
+:::
+
+<!-- Diese Website wurde erstellt mit [Quarto](https://quarto.org/){.external target="blank"}. -->
